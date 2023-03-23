@@ -1,0 +1,9 @@
+html {
+  background-color: #0a0a23;
+  color: whitesmoke;
+}
+
+#hero-img {
+  width: 200px;
+  height: auto;
+}
