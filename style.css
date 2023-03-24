@@ -1,6 +1,16 @@
 html {
-  background-color: #0a0a23;
+  background-color: #1f2937;
   color: whitesmoke;
+}
+
+.hero {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+#hero-txt {
+  width: 300px;
 }
 
 #hero-img {
