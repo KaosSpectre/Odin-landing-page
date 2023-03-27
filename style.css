@@ -3,6 +3,11 @@ html {
   color: whitesmoke;
 }
 
+img {
+  max-width: 200px;
+  height: auto;
+}
+
 .hero {
   display: flex;
   flex: 1;
