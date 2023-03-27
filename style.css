@@ -8,7 +8,22 @@ img {
   height: auto;
 }
 
-.hero {
+#header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 32px;
+}
+
+#nav {
+  display: flex;
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+#hero {
   display: flex;
   flex: 1;
   justify-content: space-evenly;
