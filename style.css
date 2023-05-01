@@ -3,7 +3,7 @@ html {
   color: whitesmoke;
 }
 
-img {
+#hero-img {
   max-width: 200px;
   height: auto;
 }
