@@ -8,16 +8,18 @@
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="header">
+    <div id="header">
       <h1>A Logo</h1>
-      <ul>
+      <div>
+      <ul id="nav">
         <li>Home</li>
         <li>About</li>
         <li>Sign In</li>
       </ul>
+      </div>
     </div>
-    <div class="body">
-      <div class="hero">
+    <div id="body">
+      <div id="hero">
         <div id="hero-txt">
           <h1>Rando Website!</h1>
           <h3>Some subtext for the rando website, much words. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, exercitationem!</h3>
@@ -27,21 +29,23 @@
       </div>
       <div id="pictures">
         <h2>Look! Some random pictures!</h2>
-        <div>
-          <img src="./images/falls.jpg" alt="Some beautiful waterfalls!" />
-          <p>Some beautiful waterfalls!</p>
-        </div>
-        <div>
-          <img src="./images/forest.jpg" alt="A serene forest." />
-          <p>A serene forest!</p>
-        </div>
-        <div>
-          <img src="./images/glacier.jpg" alt="A cool glacier." />
-          <p>A cool glacier!(See what I did there?)</p>
-        </div>
-        <div>
-          <img src="./images/mountains.jpg" alt="Some mountain peaks." />
-          <p>Some icy mountain peaks!</p>
+        <div id="pic-container">
+          <div class="pictures">
+            <img src="./images/falls.jpg" alt="Some beautiful waterfalls!" />
+            <p>Some beautiful waterfalls!</p>
+          </div>
+          <div class="pictures">
+            <img src="./images/forest.jpg" alt="A serene forest." />
+            <p>A serene forest!</p>
+          </div>
+          <div class="pictures">
+            <img src="./images/glacier.jpg" alt="A cool glacier." />
+            <p>A cool glacier!(See what I did there?)</p>
+          </div>
+          <div class='pictures'>
+            <img src="./images/mountains.jpg" alt="Some mountain peaks." />
+            <p>Some icy mountain peaks!</p>
+          </div>
         </div>
       </div>
       <div id="quote"><p>“The more I study, the more insatiable do I feel my genius for it to be.” - Ada Lovelace</p></div>
