@@ -37,3 +37,36 @@ li {
   width: 200px;
   height: auto;
 }
+
+#pictures {
+  text-align: center;
+  margin-top: 64px;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  color: #1f2937;
+}
+
+#pictures > h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-top: 32px;
+}
+
+img {
+  border: solid cyan 1px;
+  border-radius: 10%;
+  height: 150px;
+  width: 250px;
+}
+
+.pictures {
+  text-align: center;
+}
+
+#pic-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 375px;
+}
