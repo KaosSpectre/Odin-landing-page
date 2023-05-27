@@ -106,24 +106,28 @@ img {
   height: 375px;
 }
 
-.quote {
+.quote-wrapper {
   display: flex;
   flex-direction: column;
-  padding: 16px;
-  border: solid pink 3px;
+  padding: 32px;
+  margin: 32px;
+}
+
+#quote-wrapper {
+  text-align: center;
+  padding: 0;
 }
 
 #quote {
   font-style: italic;
   font-size: 36px;
-  border: solid purple 3px;
+  padding: 0;
 }
 
 #quoter {
-  display: block;
-  justify-content: flex-end;
+  font-size: 24px;
   font-weight: bold;
-  border: solid 3px red;
+  text-align: end;
 }
 
 .footer {
